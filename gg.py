@@ -1,6 +1,8 @@
-!/usr/bin/env python
- -*- coding: utf-8 -*-
- vim:fileencoding=utf-8
+AddDefaultCharset UTF-8    
+SetEnv PYTHONIOENCODING utf8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# vim:fileencoding=utf-8
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
